@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500;600;700&family=Inter:wght@400;700;800&family=Josefin+Sans:wght@300;400;600&family=Roboto:wght@300;400;500;700&family=Space+Mono:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'AR One Sans';
+}
+
+body,
+html {
+    height: 100vh;
+    background-color: #FFF2D8;
+}
+
+.container {
+
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1610534440162-e0e68fbdeca3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+
+    align-items: center;
+}
+
+.container>h1 {
+    margin: 20px;
+    text-shadow: .2rem .2rem .2rem grey;
+    color: #ffffff;
+    font-size: 4rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+
+}
+
+.clock {
+    height: 35%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: .2rem .2rem .2rem #c2c2c2;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.048);
+
+
+}
+
+.time-box {
+    background-color: #bca37f34;
+    margin: 2rem;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+
+}
+
+.time-box>h1 {
+    width: fit-content;
+    padding: 0 1rem;
+    border-radius: 10px;
+    color: #e7f8fd;
+}
+
+.time-box .time {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    margin-top: 3rem;
+    color: #dbf0f7;
+    border-radius: 5px;
+}
